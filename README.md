@@ -14,7 +14,12 @@
 * 使用Eventbus,可以使用粘性消息
 * 善于使用launchMode，savedInstanceState等来保存信息
 * 使用ThreadHandler做线程（有队列的功能）//TODO 线程停止可以使用标志位,停止线程怎么弄，join是什么意思
+<pre>  
+    join方法用线程对象调用，如果在一个线程A中调用另一个线程B的join方法，线程A将会等待线程B执行完毕后再执行。
+    yield可以直接用Thread类调用，yield让出CPU执行权给同等级的线程，如果没有相同级别的线程在等待CPU的执行权，则该线程继续执行。
+</pre>
 * 构造函数 构造代码块 静态代码块 Java类初始化顺序，可以在静态代码库中加载一次性东西
 * 内存分析工具 MAT 的使用
 http://www.lightskystreet.com/2015/09/01/mat_usage/
+* 
 
