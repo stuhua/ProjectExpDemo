@@ -15,4 +15,5 @@
 * 善于使用launchMode，savedInstanceState等来保存信息
 * 使用ThreadHandler做线程（有队列的功能）线程停止可以使用标志位
 * 构造函数 构造代码块 静态代码块 Java类初始化顺序，可以在静态代码库中加载一次性东西
+* 内存分析工具 MAT 的使用
 
