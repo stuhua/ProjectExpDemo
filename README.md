@@ -16,4 +16,5 @@
 * 使用ThreadHandler做线程（有队列的功能）//TODO 线程停止可以使用标志位,停止线程怎么弄，join是什么意思
 * 构造函数 构造代码块 静态代码块 Java类初始化顺序，可以在静态代码库中加载一次性东西
 * 内存分析工具 MAT 的使用
+http://www.lightskystreet.com/2015/09/01/mat_usage/
 
