@@ -8,5 +8,5 @@
 * CommonAdapter来做万能适配器
 * 使用Eventbus,可以使用粘性消息
 * 善于使用launchMode，savedInstanceState等来保存信息
-* 
+* 使用ThreadHandler做线程（有队列的功能）线程停止可以使用标志位
 
