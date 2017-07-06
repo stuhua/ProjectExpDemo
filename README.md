@@ -7,5 +7,6 @@
 * 使用BaseActivity来管理Activity等
 * CommonAdapter来做万能适配器
 * 使用Eventbus,可以使用粘性消息
-
+* 善于使用launchMode，savedInstanceState等来保存信息
+* 
 
