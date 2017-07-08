@@ -14,6 +14,7 @@
 * 使用Eventbus,可以使用粘性消息
 * 善于使用launchMode，savedInstanceState等来保存信息
 * 使用ThreadHandler做线程（有队列的功能）//TODO 线程停止可以使用标志位,停止线程怎么弄，join是什么意思
+* 使用lock,await,signal,ArrayBlockingQueue等JDK1.5特性
 <pre>  
     http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0907/3428.html
     join方法用线程对象调用，如果在一个线程A中调用另一个线程B的join方法，线程A将会等待线程B执行完毕后再执行。
