@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="40px"
+    android:paddingRight="40px"
+    tools:context="carnetapp.ipod.ui.MainActivity" >
+
+    <ListView
+        android:id="@+id/lv_special"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/divider_listview"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+    <ListView
+        android:id="@+id/lv_special2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:divider="@drawable/divider_listview"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" >
+    </ListView>
+
+</FrameLayout>
