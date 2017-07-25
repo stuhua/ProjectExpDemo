@@ -54,6 +54,7 @@ public class CopyFile {
 			Path p = Paths.get(u);
 			Files.walkFileTree(p, new SimpleFileVisitor<Path>() {
 
+
 				private String pathName = "1";
 				private String fileTarget = "f:/2";
 
