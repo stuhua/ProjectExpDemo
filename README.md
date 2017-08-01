@@ -13,7 +13,7 @@
 * CommonAdapter来做万能适配器
 * 使用Eventbus,可以使用粘性消息
 * 善于使用launchMode，savedInstanceState等来保存信息
-* 使用ThreadHandler做线程（有队列的功能）//TODO 线程停止可以使用标志位,停止线程怎么弄，join是什么意思
+* 使用ThreadHandler做线程（有队列的功能）//TODO 线程停止使用interrpted ,再使用标志位。
 * 使用lock,await,signal,ArrayBlockingQueue等JDK1.5特性
 <pre>  
     http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2015/0907/3428.html
