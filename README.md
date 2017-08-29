@@ -25,3 +25,5 @@
 * http://www.lightskystreet.com/2015/09/01/mat_usage/
 
 
+* 希尔排序
+* KMP排序
